@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    background-color: #ff8108;
+}
+
+.card1{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton1{
+    border-radius: 20px;
+    border: 0;
+    margin: 8px;
+    cursor: pointer;
+    width: max-content;
+    padding: 0.4rem;
+    background-color: #ff3d08;
+}
+
+.img1{
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px; 
+}
+
+.section2{
+    background-color: #fffb79;
+}
+
+hr{
+    
+    border-color: black;
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    background-color: #fffb79;
+    margin-bottom: 20px;
+
+    select{
+        border-radius: 20px;
+        margin-top: 25px;
+    }
+
+    .date{
+        border-radius: 20px;
+        padding: 0.2rem;
+        margin-top: 25px;
+    }
+
+    p{
+        margin-top: 30px;
+    }
+
+}
+
+
+
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fffb79;
+
+    .card3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        background-color: #ff3d08;
+        border-radius: 30px;
+        margin: 30px;
+    }
+
+    h2{
+        padding: 15px;
+    }
+
+    .img2{
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        display: flex;
+        border-radius: 0 0 25px 25px;
+    }
+
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ff3d08 ;
+}
+
+.card4{
+    margin: 20px;
+    cursor: pointer;
+    .img3{
+        margin: 10px;
+        margin-top: 10px;
+    }
+}
+
+.card5{
+    border-top: solid 2px #fff;
+}
